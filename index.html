@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equinova Innovations</title>
+
+<meta name="description" content="Tax consultancy, architecture and business consulting in Guwahati">
+
+<style>
+body {
+  margin:0;
+  font-family: Arial;
+  background:#0b1f3a;
+  color:white;
+}
+
+/* NAV */
+nav {
+  position:fixed;
+  width:100%;
+  top:0;
+  background:rgba(0,0,0,0.6);
+  padding:15px;
+  display:flex;
+  justify-content:space-between;
+}
+
+nav a {
+  color:white;
+  margin-left:20px;
+  text-decoration:none;
+}
+
+.contact-btn {
+  background:gold;
+  padding:5px 10px;
+  color:black;
+}
+
+/* HERO */
+.hero {
+  height:100vh;
+  background:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover;
+  display:flex;
+  align-items:center;
+  padding:0 10%;
+}
+
+.hero h1 {
+  font-size:40px;
+}
+
+/* SECTION */
+section {
+  padding:80px 10%;
+}
+
+/* SPLIT */
+.split {
+  display:flex;
+  align-items:center;
+  gap:30px;
+  margin-top:40px;
+}
+
+.split img {
+  width:50%;
+  height:300px;
+  object-fit:cover;
+  border-radius:10px;
+}
+
+.split .text {
+  width:50%;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+  .split {
+    flex-direction:column;
+  }
+  .split img,.split .text {
+    width:100%;
+  }
+}
+
+/* BUTTON */
+.btn {
+  background:gold;
+  color:black;
+  padding:10px 20px;
+  text-decoration:none;
+  display:inline-block;
+  margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div>Equinova</div>
+<div>
+<a href="#tax">Tax</a>
+<a href="#arch">Architecture</a>
+<a href="#business">Business</a>
+<a href="#contact" class="contact-btn">Contact</a>
+</div>
+</nav>
+
+<div class="hero">
+<h1>Financial, Business & Architectural Solutions</h1>
+</div>
+
+<!-- TAX -->
+<section id="tax">
+<h2>Tax & Financial Services</h2>
+
+<div class="split">
+<img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f">
+<div class="text">
+<p>GST, Income Tax, Accounting, TDS, PF, ESIC and complete compliance services.</p>
+<a href="tax.html" class="btn">View Details</a>
+</div>
+</div>
+
+</section>
+
+<!-- ARCH -->
+<section id="arch">
+<h2>Architecture & Construction</h2>
+
+<div class="split">
+<img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e">
+<div class="text">
+<p>Planning, 2D/3D design and construction execution services.</p>
+<a href="architecture.html" class="btn">View Details</a>
+</div>
+</div>
+
+</section>
+
+<!-- BUSINESS -->
+<section id="business">
+<h2>Business Consultancy</h2>
+
+<div class="split">
+<img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40">
+<div class="text">
+<p>Startup, planning and growth consulting services.</p>
+<a href="business.html" class="btn">View Details</a>
+</div>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact Us</h2>
+<p>📞 9181017618</p>
+<p>✉ equinovainnovations@gmail.com</p>
+<p>📍 Bamunimaidan, Guwahati</p>
+</section>
+
+</body>
+</html>
