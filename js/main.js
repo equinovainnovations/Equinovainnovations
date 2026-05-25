@@ -1,25 +1,30 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  // Smooth scroll effect for navigation
-  const links = document.querySelectorAll("a[href^='#']");
-
-  links.forEach(link => {
-    link.addEventListener("click", function (e) {
+  // Smooth scroll
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function (e) {
       e.preventDefault();
-      const target = document.querySelector(this.getAttribute("href"));
-      if (target) {
-        target.scrollIntoView({
-          behavior: "smooth"
-        });
-      }
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth"
+      });
     });
   });
 
-  // Floating animation enhancer (subtle movement control)
-  const floatingImages = document.querySelectorAll(".float");
+  // Reveal on scroll
+  const reveals = document.querySelectorAll(".reveal");
 
-  floatingImages.forEach((img, index) => {
-    img.style.animationDuration = (5 + index) + "s";
-  });
+  function revealOnScroll() {
+    for (let i = 0; i < reveals.length; i++) {
+      let windowHeight = window.innerHeight;
+      let elementTop = reveals[i].getBoundingClientRect().top;
+      let elementVisible = 120;
+
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      }
+    }
+  }
+
+  window.addEventListener("scroll", revealOnScroll);
 
 });
