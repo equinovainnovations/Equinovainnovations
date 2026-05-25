@@ -1,1 +1,0 @@
-# Equinova-Innovations
