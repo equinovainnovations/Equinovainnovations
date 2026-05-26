@@ -260,21 +260,17 @@ gap:30px;
 
 .card{
 
-background:white;
-
-border-radius:24px;
+border-radius:28px;
 
 overflow:hidden;
 
-text-decoration:none;
-
-color:#222;
+background:white;
 
 box-shadow:
-0 10px 30px
-rgba(0,0,0,.06);
+0 20px 60px
+rgba(0,0,0,.04);
 
-transition:.3s;
+transition:.6s;
 
 }
 
