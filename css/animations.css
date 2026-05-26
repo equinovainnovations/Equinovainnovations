@@ -514,3 +514,35 @@ font-size:12px;
 }
 
 }
+
+body::before{
+
+content:"";
+
+position:fixed;
+
+width:700px;
+
+height:700px;
+
+top:-250px;
+
+right:-250px;
+
+background:
+
+radial-gradient(
+circle,
+
+rgba(184,134,56,.08),
+
+transparent
+
+);
+
+pointer-events:none;
+
+animation:
+float 16s ease infinite;
+
+}
