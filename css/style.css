@@ -663,3 +663,13 @@ border:none;
 border-radius:40px;
 
 }
+
+.services,
+.why,
+.contact{
+
+opacity:.95;
+
+transition:1s;
+
+}
