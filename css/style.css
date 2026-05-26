@@ -597,3 +597,69 @@ text-align:center;
 }
 
 }
+
+/* FOOTER */
+
+.premium-footer{
+
+padding:90px 8%;
+
+background:#f3eee6;
+
+}
+
+.footer-grid{
+
+display:grid;
+
+grid-template-columns:
+2fr 1fr 1fr 1fr;
+
+gap:50px;
+
+}
+
+.footer-grid a{
+
+display:block;
+
+margin:12px 0;
+
+color:#333;
+
+text-decoration:none;
+
+}
+
+.footer-logo{
+
+width:90px;
+
+margin-bottom:20px;
+
+}
+
+.copy{
+
+margin-top:50px;
+
+padding-top:30px;
+
+border-top:
+1px solid #ddd;
+
+text-align:center;
+
+}
+
+
+
+@media(max-width:900px){
+
+.footer-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
