@@ -33,52 +33,6 @@ behavior:"smooth"
 
 
 // =====================
-// HEADER EFFECT
-// =====================
-
-const header=
-document.querySelector("header");
-
-
-window.addEventListener(
-"scroll",
-
-()=>{
-
-if(window.scrollY>40){
-
-header.style.padding=
-"12px 6%";
-
-header.style.background=
-"rgba(255,255,255,.92)";
-
-header.style.boxShadow=
-"0 10px 30px rgba(0,0,0,.05)";
-
-}
-
-else{
-
-header.style.padding=
-"18px 6%";
-
-header.style.background=
-"white";
-
-header.style.boxShadow=
-"none";
-
-}
-
-}
-
-);
-
-
-
-
-// =====================
 // REVEAL EFFECT
 // =====================
 
