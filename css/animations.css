@@ -125,20 +125,48 @@ rgba(0,0,0,.12);
 
 /* BUTTON */
 
-.button,
-.hero-btn{
+/* ===================== */
+/* PREMIUM BUTTON MOTION */
+/* ===================== */
+
+.hero-btn,
+.button{
+
+position:relative;
+
+overflow:hidden;
 
 transition:
-.35s;
+transform .45s ease,
+letter-spacing .45s ease,
+box-shadow .45s ease;
 
 }
 
 
-.button:hover,
-.hero-btn:hover{
+
+.hero-btn:hover,
+.button:hover{
 
 transform:
-translateY(-3px);
+translateY(-4px);
+
+letter-spacing:1px;
+
+box-shadow:
+0 18px 40px
+rgba(184,134,56,.22);
+
+}
+
+
+
+.hero-btn:active,
+.button:active{
+
+transform:
+translateY(1px)
+scale(.98);
 
 }
 
