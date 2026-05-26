@@ -180,3 +180,15 @@ document.body.style.transition=
 document.body.style.opacity=1;
 
 });
+
+document
+.querySelectorAll("a,.card")
+.forEach(el=>{
+
+el.addEventListener("mouseenter",()=>{
+
+document.body.style.cursor="pointer";
+
+});
+
+});
