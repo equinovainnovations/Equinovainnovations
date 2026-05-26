@@ -21,40 +21,23 @@ overflow-x:hidden;
 
 header{
 
-position:sticky;
-
-top:12px;
-
-width:92%;
-
-margin:auto;
-
-padding:18px 36px;
-
 display:flex;
 
 justify-content:space-between;
 
 align-items:center;
 
-background:
-rgba(255,255,255,.55);
+padding:22px 8%;
 
-backdrop-filter:
-blur(18px);
+background:transparent;
 
-border:
-1px solid
-rgba(255,255,255,.6);
+border:none;
 
-border-radius:22px;
-
-z-index:999;
+width:100%;
 
 transition:.4s;
 
 }
-
 .logo{
 
 display:flex;
