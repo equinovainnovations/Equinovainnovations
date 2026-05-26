@@ -21,26 +21,39 @@ overflow-x:hidden;
 
 header{
 
+position:sticky;
+
+top:12px;
+
+width:92%;
+
+margin:auto;
+
+padding:18px 36px;
+
 display:flex;
 
 justify-content:space-between;
 
 align-items:center;
 
-padding:18px 6%;
+background:
+rgba(255,255,255,.55);
 
-background:white;
+backdrop-filter:
+blur(18px);
 
-position:sticky;
+border:
+1px solid
+rgba(255,255,255,.6);
 
-top:0;
+border-radius:22px;
 
 z-index:999;
 
-flex-wrap:wrap;
+transition:.4s;
 
 }
-
 
 .logo{
 
@@ -140,11 +153,14 @@ align-items:center;
 font-family:
 Cormorant Garamond;
 
-font-size:72px;
+font-size:
+clamp(54px,8vw,92px);
 
-line-height:1;
+line-height:.95;
 
-margin:20px 0;
+letter-spacing:-2px;
+
+font-weight:700;
 
 }
 
