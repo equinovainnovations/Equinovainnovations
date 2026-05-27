@@ -677,3 +677,22 @@ opacity:.95;
 transition:1s;
 
 }
+
+body::after{
+
+content:"";
+
+position:fixed;
+
+inset:0;
+
+background-image:
+url("https://grainy-gradients.vercel.app/noise.svg");
+
+opacity:.035;
+
+pointer-events:none;
+
+z-index:9999;
+
+}
