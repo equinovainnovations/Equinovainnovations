@@ -574,3 +574,36 @@ animation:
 float 16s ease infinite;
 
 }
+
+/* TEXT APPEAR */
+
+.left p,
+.tags,
+.content p{
+
+animation:
+softFade 1.6s ease;
+
+}
+
+
+@keyframes softFade{
+
+from{
+
+opacity:0;
+
+transform:
+translateY(12px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:none;
+
+}
+
+}
