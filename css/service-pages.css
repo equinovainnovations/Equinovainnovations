@@ -104,9 +104,11 @@ margin-bottom:30px;
 
 .section p{
 
-line-height:2;
+line-height:2.2;
 
-font-size:18px;
+font-size:19px;
+
+max-width:900px;
 
 }
 
