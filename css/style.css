@@ -15,6 +15,7 @@ scroll-behavior:smooth;
 }
 
 body{
+cursor:default;
 font-family:Inter,sans-serif;
 background:#f8f5f0;
 color:#222;
@@ -123,6 +124,8 @@ font-size:14px;
 
 .hero{
 
+min-height:90vh;
+
 display:grid;
 
 grid-template-columns:
@@ -218,7 +221,7 @@ scale(1.02);
 
 .services{
 
-padding:80px 8%;
+padding:140px 8%;
 
 }
 
@@ -326,7 +329,7 @@ color:#b88638;
 
 .why{
 
-padding:80px 8%;
+padding:140px 8%;
 
 }
 
@@ -361,7 +364,7 @@ border-radius:20px;
 
 .contact{
 
-padding:80px 8%;
+padding:140px 8%;
 
 text-align:center;
 
